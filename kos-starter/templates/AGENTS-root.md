@@ -11,12 +11,13 @@
   style/           风格层（AI 分身风格种子，始终加载）
   archive/         完结项目归档区（终态冻结）
 
-维度2：生命周期（仅 work/ 与 knowledge/ 内部三层）
+维度2：生命周期（活跃容器内部三层：仅 work/ 与 knowledge/ 内部，有真实流转才设）
   context/    已确认的事实
   workspace/  进行中的工作
   drafts/     想法和素材
   知识单向流动：drafts/ → workspace/ → context/，拿不准进 drafts/
   style/ 为扁平风格文件、archive/ 为终态归档，不套三层
+  多产品线 = 多个 {产品线}/ 目录，打开哪个目录就是哪条线的上下文
 
 维度3：敏感度（两层）
   🔴 红线：不入库、不进会话、不入 Git、不入索引（最稳妥物理隔离存库外）
